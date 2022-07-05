@@ -1,0 +1,99 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+/* Global styles */
+body {
+    margin: 0;
+    text-align: center;
+  }
+
+h3 {
+    font-family: 'Original Surfer', cursive;
+    text-shadow: 0px 0px 4px white;
+  }
+
+/* Hero section */
+#waratah {
+  background: #949a8d;
+  color: white;
+}
+
+h2 {
+  background: #949a8d;
+  color: white;
+  padding: 5px 15px;
+}
+
+#hero {
+  background-image: url("medium.jpg");
+  background-size: cover;
+  padding: 150px 0px 150px;
+  font-family: 'Original Surfer', cursive;
+  text-shadow: 0px 0px 4px white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* Activity section */
+
+main {
+  background: #e3b695;
+  padding: 20px 0;
+}
+
+.img-activities {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#activity-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  font-family: 'Original Surfer', cursive;
+}
+.activity {
+  margin: 10px 10px;
+  padding: 10px 5px;
+  width: 160px;
+}
+
+/* Guide section */
+.card {
+  border: solid 4px black;
+  border-radius: 8px;
+  display: flex;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: arial;
+  background: #1D3557;
+  color: white;
+}
+
+  #profile {
+    width: 100px;
+    border: solid black 4px;
+    margin: 0 10px;
+}
+footer {
+  background: #F1FAEE;
+  padding: 20px;
+}
+.details {
+  padding: 5px;
+}
+
+#guide {
+  padding: 0 0 20px;
+}
